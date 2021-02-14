@@ -731,7 +731,70 @@ namespace SimplCommerce.Module.Catalog.Areas.Catalog.Controllers
 
             return Json(model);
         }
-     
+        [HttpPost("GetProductWidgetViewList")]
+        public IActionResult GetProductWidgetViewList([FromBody] WidgetInstanceViewModel widgetInstance)
+        {
+            var model = new ProductWidgetComponentVm
+            {
+                Id = widgetInstance.Id,
+                WidgetName = _contentLocalizationService.GetLocalizedProperty(nameof(WidgetInstance), widgetInstance.Id, nameof(widgetInstance.Name), widgetInstance.Name),
+                Setting = JsonConvert.DeserializeObject<ProductWidgetSetting>(widgetInstance.Data)
+            };
+
+            var query = _productRepository.Query()
+              .Where(x => x.IsPublished && x.IsVisibleIndividually);
+
+            if (model.Setting.CategoryId.HasValue && model.Setting.CategoryId.Value > 0)
+            {
+                query = query.Where(x => x.Categories.Any(c => c.CategoryId == model.Setting.CategoryId.Value));
+            }
+
+            if (model.Setting.FeaturedOnly)
+            {
+                query = query.Where(x => x.IsFeatured);
+            }
+
+            model.Products = query
+              .Include(x => x.ThumbnailImage)
+              .OrderByDescending(x => x.CreatedOn)
+              .Take(model.Setting.NumberOfProducts)
+              .Select(x => ProductThumbnail.FromProduct(x)).ToList();
+
+            foreach (var product in model.Products)
+            {
+                product.Name = _contentLocalizationService.GetLocalizedProperty(nameof(Product), product.Id, nameof(product.Name), product.Name);
+                product.ThumbnailUrl = _mediaService.GetThumbnailUrl(product.ThumbnailImage);
+                product.CalculatedProductPrice = _productPricingService.CalculateProductPrice(product);
+            }
+
+            return Ok(model);
+        }
+        [HttpPost("GetSimpleProductWidgetViewList")]
+        public IActionResult GetSimpleProductWidgetViewList([FromBody] WidgetInstanceViewModel widgetInstance)
+        {
+            var model = new SimpleProductWidgetComponentVm
+            {
+                Id = widgetInstance.Id,
+                WidgetName = _contentLocalizationService.GetLocalizedProperty(nameof(WidgetInstance), widgetInstance.Id, nameof(widgetInstance.Name), widgetInstance.Name),
+                Setting = JsonConvert.DeserializeObject<SimpleProductWidgetSetting>(widgetInstance.Data)
+            };
+
+            foreach (var item in model.Setting.Products)
+            {
+                var product = _productRepository.Query().Where(x => x.Id == item.Id).Include(x => x.ThumbnailImage).FirstOrDefault();
+
+                if (product != null)
+                {
+                    var productThumbnail = ProductThumbnail.FromProduct(product);
+                    productThumbnail.Name = _contentLocalizationService.GetLocalizedProperty(nameof(Product), productThumbnail.Id, nameof(product.Name), productThumbnail.Name);
+                    productThumbnail.ThumbnailUrl = _mediaService.GetThumbnailUrl(product.ThumbnailImage);
+                    productThumbnail.CalculatedProductPrice = _productPricingService.CalculateProductPrice(product);
+                    model.Products.Add(productThumbnail);
+                }
+            }
+
+            return Ok(model);
+        }
         private IEnumerable<string> GetProductImageUrls(long productId)
         {
             var imageUrls = _productMediaRepository.Query()
