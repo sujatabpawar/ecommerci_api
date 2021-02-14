@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+MbE0UAoKSZVWe3PTvtmevqlltqwda4gCnPS7K6AUGca2L0KZtzIVD5BM6qQtLDgsELdNpTuca6tSMjA8b/obA==",
+  "dgSpecHash": "ky1gyrD+/TZQBk2t78pnQbJrOn3HyHQWuZV3ftcNg4zWvCtd4iOMbV6DQyYGrC0/WZUe2U7yVLoGj9nKERel8w==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.ShippingFree\\SimplCommerce.Module.ShippingFree.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingFree\\SimplCommerce.Module.ShippingFree.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.web.pagination\\2.1.11\\cloudscribe.web.pagination.2.1.11.nupkg.sha512",

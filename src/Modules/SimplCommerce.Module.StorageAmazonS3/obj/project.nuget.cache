@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+PQg8h4PNB5yZgpWxhRrfacXh2oQspSvLcsa3y48NzGZ++xRY1Vkzhxu7RBKSwmBQj6Kh59kaqtsftvCXVxPOw==",
+  "dgSpecHash": "jiBodaYRhq7LlUgRJolXbxghcjgqvdkzPoDfmXr/9pzL3Zcwz7J6guofRGynxZs6pWL2teM1t8gEw7gJp5PCGw==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\SimplCommerce.Module.StorageAmazonS3.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\SimplCommerce.Module.StorageAmazonS3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\awssdk.core\\3.3.103.16\\awssdk.core.3.3.103.16.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\awssdk.s3\\3.3.104.4\\awssdk.s3.3.3.104.4.nupkg.sha512",

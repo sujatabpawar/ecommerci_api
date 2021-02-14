@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PULNZ9fKT3STO7XocHP+x8LbhGzM5WKrGsMu5GCtP4lm72duXZMF+MsUMfXl+s0FLG/EPdMZ3iQh930E3JKcBA==",
+  "dgSpecHash": "2+4qkP0dHbulDBV7uCiXVniZfSumFg6L7vJ6hEbZ7ZPYFAzU5lmRFBHiy7/u+gdMdLw9/7XPBpwu/k17EZpzpg==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.PaymentBraintree\\SimplCommerce.Module.PaymentBraintree.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentBraintree\\SimplCommerce.Module.PaymentBraintree.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\braintree\\4.9.0\\braintree.4.9.0.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",

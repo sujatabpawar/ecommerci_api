@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Rtf6gOWYAhI9iN8WtxH/8WyyzWEQGFBytOLvMJq1EqyL5NP16yKmueRIX7Ey/ze1ZJJyEVfdkMaY6FKYmCJ+g==",
+  "dgSpecHash": "Tdb9rLOMMZlZfFcvIXTIjwnX+zT8W0h/Ybs9SfWoLsMNkqArd40hlsWdFCKx/4ZB+g7wqDvwO1jB3KPXrGeBNA==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.StorageAzureBlob\\SimplCommerce.Module.StorageAzureBlob.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.StorageAzureBlob\\SimplCommerce.Module.StorageAzureBlob.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.web.pagination\\2.1.11\\cloudscribe.web.pagination.2.1.11.nupkg.sha512",

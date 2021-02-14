@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DXW+OoDGaLnJp0xaMw8fXJBUP6dgAoTlvr0W8j2goldPsj6oj3k9pNb7GlgUqrQ9iDzpfaWjaQgRCUU8c/FUWg==",
+  "dgSpecHash": "ba9lGd+zfPTbmUvdSmVsRXnrMyGuaBUBOharyiBpcdHy5Fm2NcIKFK0VTLf83ARZzkodRWgUwkYCR5iUfciD5Q==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.DinkToPdf\\SimplCommerce.Module.DinkToPdf.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.DinkToPdf\\SimplCommerce.Module.DinkToPdf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.web.pagination\\2.1.11\\cloudscribe.web.pagination.2.1.11.nupkg.sha512",

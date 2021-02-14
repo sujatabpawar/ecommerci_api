@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9MXaFBmjwWPfFuV+0gYt7YqTjFNSYe20YLEcW9ctDaJEtuuaw8H6n/S6Re4rdO7wEEzBA0zy+j4twgHi71KqVQ==",
+  "dgSpecHash": "KufmW6XBNYiB/qGlZ535j/D0POmjF8h03AKTMNbA/kVeLpX7+krpWtS84o24ZLXjrzR5FCiW5zdlrwXkyBqVvA==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.PaymentMomo\\SimplCommerce.Module.PaymentMomo.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentMomo\\SimplCommerce.Module.PaymentMomo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.web.pagination\\2.1.11\\cloudscribe.web.pagination.2.1.11.nupkg.sha512",

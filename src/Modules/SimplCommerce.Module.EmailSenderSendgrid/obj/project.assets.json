@@ -9573,11 +9573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\SimplCommerce.Module.EmailSenderSendgrid.csproj",
+      "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\SimplCommerce.Module.EmailSenderSendgrid.csproj",
       "projectName": "SimplCommerce.Module.EmailSenderSendgrid",
-      "projectPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\SimplCommerce.Module.EmailSenderSendgrid.csproj",
+      "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\SimplCommerce.Module.EmailSenderSendgrid.csproj",
       "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-      "outputPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\obj\\",
+      "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9597,8 +9597,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-              "projectPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+            "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+              "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
             }
           }
         }

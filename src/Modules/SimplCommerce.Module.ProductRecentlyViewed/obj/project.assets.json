@@ -9585,11 +9585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.ProductRecentlyViewed\\SimplCommerce.Module.ProductRecentlyViewed.csproj",
+      "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ProductRecentlyViewed\\SimplCommerce.Module.ProductRecentlyViewed.csproj",
       "projectName": "SimplCommerce.Module.ProductRecentlyViewed",
-      "projectPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.ProductRecentlyViewed\\SimplCommerce.Module.ProductRecentlyViewed.csproj",
+      "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ProductRecentlyViewed\\SimplCommerce.Module.ProductRecentlyViewed.csproj",
       "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-      "outputPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.ProductRecentlyViewed\\obj\\",
+      "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ProductRecentlyViewed\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9609,8 +9609,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
-              "projectPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
+            "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+              "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
             }
           }
         }

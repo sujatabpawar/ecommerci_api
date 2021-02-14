@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8r/BncW8rCzIBTx3X8xRA6WJXI2TFIY1uZBomeG+TijQky2CWMpwTMRBhVHnMxzfLxl66upbpXwBjNiFL43QXw==",
+  "dgSpecHash": "9KLcwzwKeYUNUQj0Fk6OCzO0byeFfS+FajAmweyt6pKL0pobAK+FL/4LeJCqM5WyX9vM4gRL1Z66VPRiR7H+tw==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\SimplCommerce.Module.EmailSenderSendgrid.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.EmailSenderSendgrid\\SimplCommerce.Module.EmailSenderSendgrid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.web.pagination\\2.1.11\\cloudscribe.web.pagination.2.1.11.nupkg.sha512",

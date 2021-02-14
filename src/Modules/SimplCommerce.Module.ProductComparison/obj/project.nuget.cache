@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4p6N2TbcxBOXEA5Y+x4aYPynUvZIVgS2sJSGo2gYS3hGQyzXE793CPAumrlziyFw5q4eubt4hcFmxBDaqkn9AA==",
+  "dgSpecHash": "NFl6XY1X5H4Vq8ZXglgb4gqO/9mgPKVQ7KpJIecXv/l32v+/frGquOwJYnqHkZwN0/W5z68NkUyMfFAqPvNJMg==",
   "success": true,
-  "projectFilePath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.ProductComparison\\SimplCommerce.Module.ProductComparison.csproj",
+  "projectFilePath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ProductComparison\\SimplCommerce.Module.ProductComparison.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.pagination.models\\1.0.5\\cloudscribe.pagination.models.1.0.5.nupkg.sha512",
     "C:\\Users\\sachin\\.nuget\\packages\\cloudscribe.web.pagination\\2.1.11\\cloudscribe.web.pagination.2.1.11.nupkg.sha512",

@@ -9652,11 +9652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\SimplCommerce.Module.StorageAmazonS3.csproj",
+      "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\SimplCommerce.Module.StorageAmazonS3.csproj",
       "projectName": "SimplCommerce.Module.StorageAmazonS3",
-      "projectPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\SimplCommerce.Module.StorageAmazonS3.csproj",
+      "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\SimplCommerce.Module.StorageAmazonS3.csproj",
       "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-      "outputPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\obj\\",
+      "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.StorageAmazonS3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9676,11 +9676,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-              "projectPath": "H:\\Client\\SimplCommerce\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+            "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+              "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
             },
-            "H:\\Client\\SimplCommerce\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-              "projectPath": "H:\\Client\\SimplCommerce\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+            "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+              "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
             }
           }
         }
