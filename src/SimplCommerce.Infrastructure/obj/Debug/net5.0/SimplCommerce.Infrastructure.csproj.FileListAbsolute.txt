@@ -1,0 +1,12 @@
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\bin\Debug\net5.0\SimplCommerce.Infrastructure.deps.json
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\bin\Debug\net5.0\SimplCommerce.Infrastructure.dll
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\bin\Debug\net5.0\ref\SimplCommerce.Infrastructure.dll
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\bin\Debug\net5.0\SimplCommerce.Infrastructure.pdb
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.csprojAssemblyReference.cache
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.AssemblyInfoInputs.cache
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.AssemblyInfo.cs
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.csproj.CoreCompileInputs.cache
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.dll
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\ref\SimplCommerce.Infrastructure.dll
+H:\Client\SimplCommerce\src\SimplCommerce.Infrastructure\obj\Debug\net5.0\SimplCommerce.Infrastructure.pdb

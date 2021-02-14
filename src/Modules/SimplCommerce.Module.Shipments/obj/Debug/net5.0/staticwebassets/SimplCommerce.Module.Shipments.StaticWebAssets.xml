@@ -1,0 +1,10 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Catalog" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Catalog\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Core" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Core\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Inventory" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Inventory\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Orders" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Orders\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Pricing" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Pricing\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Shipping" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Shipping\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.ShoppingCart" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.ShoppingCart\wwwroot\" />
+  <ContentRoot BasePath="_content/SimplCommerce.Module.Tax" Path="H:\Client\SimplCommerce\src\Modules\SimplCommerce.Module.Tax\wwwroot\" />
+</StaticWebAssets>
