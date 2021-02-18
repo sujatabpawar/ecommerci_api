@@ -11,7 +11,7 @@ using SimplCommerce.Module.Contacts.Models;
 namespace SimplCommerce.Module.Contacts.Areas.Contacts.Controllers
 {
     [Area("Contacts")]
-    [Authorize(Roles = "admin")]
+   // [Authorize(Roles = "admin")]
     [Route("api/contact-area-translations")]
     public class ContactAreaTranslationApiController : Controller
     {

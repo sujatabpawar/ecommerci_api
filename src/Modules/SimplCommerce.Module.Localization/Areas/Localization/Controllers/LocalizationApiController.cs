@@ -8,6 +8,8 @@ using Microsoft.Extensions.Localization;
 using SimplCommerce.Infrastructure;
 using SimplCommerce.Infrastructure.Data;
 using SimplCommerce.Infrastructure.Localization;
+using SimplCommerce.Module.Core.Extensions;
+using SimplCommerce.Module.Core.Models;
 using SimplCommerce.Module.Localization.Areas.Localization.ViewModel;
 
 namespace SimplCommerce.Module.Localization.Areas.Localization.Controllers
@@ -19,12 +21,16 @@ namespace SimplCommerce.Module.Localization.Areas.Localization.Controllers
         private readonly IStringLocalizer _localizer;
         private readonly IRepository<Resource> _resourceRepository;
         private readonly IRepositoryWithTypedId<Culture, string> _cultureRepository;
+        private readonly IRepositoryWithTypedId<User, long> _userRepository;
+        private readonly IWorkContext _workContext;
 
-        public LocalizationApiController(IStringLocalizerFactory stringLocalizerFactory, IRepository<Resource> resourceRepository, IRepositoryWithTypedId<Culture, string> cultureRepository)
+        public LocalizationApiController(IStringLocalizerFactory stringLocalizerFactory, IRepository<Resource> resourceRepository, IRepositoryWithTypedId<Culture, string> cultureRepository, IRepositoryWithTypedId<User, long> userRepository, IWorkContext workContext)
         {
             _localizer = stringLocalizerFactory.Create(null);
             _resourceRepository = resourceRepository;
             _cultureRepository = cultureRepository;
+            _userRepository = userRepository;
+            _workContext = workContext;
         }
 
         [HttpGet("get-translation")]
@@ -100,5 +106,16 @@ namespace SimplCommerce.Module.Localization.Areas.Localization.Controllers
             _resourceRepository.SaveChanges();
             return Accepted();
         }
+        [HttpPost]
+        public async Task<IActionResult> SetLanguage(string culture, string returnUrl)
+        {
+            var currentUser = await _workContext.GetCurrentUser();
+
+            currentUser.Culture = culture;
+            _userRepository.SaveChanges();
+
+            return LocalRedirect(returnUrl);
+        }
+
     }
 }

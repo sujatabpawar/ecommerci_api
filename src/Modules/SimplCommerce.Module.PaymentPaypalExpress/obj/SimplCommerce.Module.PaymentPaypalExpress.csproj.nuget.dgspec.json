@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj": {}
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj": {}
   },
   "projects": {
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj",
         "projectName": "SimplCommerce.Module.Catalog",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -70,24 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj",
         "projectName": "SimplCommerce.Module.Core",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +95,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -148,24 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj",
         "projectName": "SimplCommerce.Module.Orders",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -179,23 +170,23 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -227,24 +218,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj",
         "projectName": "SimplCommerce.Module.PaymentPaypalExpress",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\SimplCommerce.Module.PaymentPaypalExpress.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.PaymentPaypalExpress\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,17 +246,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -300,24 +288,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj",
         "projectName": "SimplCommerce.Module.Payments",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\SimplCommerce.Module.Payments.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Payments\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -331,14 +316,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Orders\\SimplCommerce.Module.Orders.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -370,24 +355,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj",
         "projectName": "SimplCommerce.Module.Pricing",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -401,14 +383,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -440,24 +422,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj",
         "projectName": "SimplCommerce.Module.ShippingPrices",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\SimplCommerce.Module.ShippingPrices.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShippingPrices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -471,17 +450,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -513,24 +492,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj",
         "projectName": "SimplCommerce.Module.Shipping",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\SimplCommerce.Module.Shipping.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Shipping\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -544,14 +520,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -583,24 +559,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj",
         "projectName": "SimplCommerce.Module.ShoppingCart",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\SimplCommerce.Module.ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -614,17 +587,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Catalog\\SimplCommerce.Module.Catalog.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Pricing\\SimplCommerce.Module.Pricing.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -656,24 +629,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj",
         "projectName": "SimplCommerce.Module.Tax",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\SimplCommerce.Module.Tax.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Tax\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -687,11 +657,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\Modules\\SimplCommerce.Module.Core\\SimplCommerce.Module.Core.csproj"
               },
-              "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
-                "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
+              "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+                "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj"
               }
             }
           }
@@ -723,24 +693,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
         "projectName": "SimplCommerce.Infrastructure",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -815,7 +782,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

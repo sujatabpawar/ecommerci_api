@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {}
+    "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
+    "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
+        "projectUniqueName": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
         "projectName": "SimplCommerce.Infrastructure",
-        "projectPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sachin\\.nuget\\packages\\",
-        "outputPath": "H:\\Client\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\obj\\",
+        "projectPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\SimplCommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MFS017\\.nuget\\packages\\",
+        "outputPath": "F:\\myecommerceapi\\ecommerceapi\\src\\SimplCommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFS017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

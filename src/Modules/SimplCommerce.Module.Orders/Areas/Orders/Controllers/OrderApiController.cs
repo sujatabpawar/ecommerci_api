@@ -18,7 +18,7 @@ using SimplCommerce.Module.Orders.Models;
 namespace SimplCommerce.Module.Orders.Areas.Orders.Controllers
 {
     [Area("Orders")]
-    [Authorize(Roles = "admin, vendor")]
+    //[Authorize(Roles = "admin, vendor")]
     [Route("api/orders")]
     public class OrderApiController : Controller
     {
@@ -26,13 +26,14 @@ namespace SimplCommerce.Module.Orders.Areas.Orders.Controllers
         private readonly IWorkContext _workContext;
         private readonly IMediator _mediator;
         private readonly ICurrencyService _currencyService;
-
-        public OrderApiController(IRepository<Order> orderRepository, IWorkContext workContext, IMediator mediator, ICurrencyService currencyService)
+        private readonly IMediaService _mediaService;
+        public OrderApiController(IRepository<Order> orderRepository, IMediaService mediaService, IWorkContext workContext, IMediator mediator, ICurrencyService currencyService)
         {
             _orderRepository = orderRepository;
             _workContext = workContext;
             _mediator = mediator;
             _currencyService = currencyService;
+            _mediaService = mediaService;
         }
 
         [HttpGet]
@@ -491,5 +492,83 @@ namespace SimplCommerce.Module.Orders.Areas.Orders.Controllers
             var csvBytesWithUTF8BOM = Encoding.UTF8.GetPreamble().Concat(csvBytes).ToArray();
             return File(csvBytesWithUTF8BOM, "text/csv", "order-lines-export.csv");
         }
+        [HttpGet("user/orders/{orderId}")]
+        public async Task<IActionResult> OrderDetails(long orderId)
+        {
+            var user = await _workContext.GetCurrentUser();
+
+            var order = _orderRepository
+                .Query()
+                .Include(x => x.ShippingAddress).ThenInclude(x => x.District)
+                .Include(x => x.ShippingAddress).ThenInclude(x => x.StateOrProvince)
+                .Include(x => x.ShippingAddress).ThenInclude(x => x.Country)
+                .Include(x => x.OrderItems).ThenInclude(x => x.Product).ThenInclude(x => x.ThumbnailImage)
+                .Include(x => x.OrderItems).ThenInclude(x => x.Product).ThenInclude(x => x.OptionCombinations).ThenInclude(x => x.Option)
+                .Include(x => x.Customer)
+                .FirstOrDefault(x => x.Id == orderId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            if (order.CustomerId != user.Id)
+            {
+                return BadRequest(new { error = "You don't have permission to view this order" });
+            }
+
+            var model = new OrderDetailVm(_currencyService)
+            {
+                Id = order.Id,
+                IsMasterOrder = order.IsMasterOrder,
+                CreatedOn = order.CreatedOn,
+                OrderStatus = (int)order.OrderStatus,
+                OrderStatusString = order.OrderStatus.ToString(),
+                CustomerId = order.CustomerId,
+                CustomerName = order.Customer.FullName,
+                CustomerEmail = order.Customer.Email,
+                ShippingMethod = order.ShippingMethod,
+                PaymentMethod = order.PaymentMethod,
+                PaymentFeeAmount = order.PaymentFeeAmount,
+                Subtotal = order.SubTotal,
+                DiscountAmount = order.DiscountAmount,
+                SubTotalWithDiscount = order.SubTotalWithDiscount,
+                TaxAmount = order.TaxAmount,
+                ShippingAmount = order.ShippingFeeAmount,
+                OrderTotal = order.OrderTotal,
+                OrderNote = order.OrderNote,
+                ShippingAddress = new ShippingAddressVm
+                {
+                    AddressLine1 = order.ShippingAddress.AddressLine1,
+                    CityName = order.ShippingAddress.City,
+                    ZipCode = order.ShippingAddress.ZipCode,
+                    ContactName = order.ShippingAddress.ContactName,
+                    DistrictName = order.ShippingAddress.District?.Name,
+                    StateOrProvinceName = order.ShippingAddress.StateOrProvince.Name,
+                    Phone = order.ShippingAddress.Phone
+                },
+                OrderItems = order.OrderItems.Select(x => new OrderItemVm(_currencyService)
+                {
+                    Id = x.Id,
+                    ProductId = x.Product.Id,
+                    ProductName = x.Product.Name,
+                    ProductPrice = x.ProductPrice,
+                    Quantity = x.Quantity,
+                    DiscountAmount = x.DiscountAmount,
+                    ProductImage = x.Product.ThumbnailImage.FileName,
+                    TaxAmount = x.TaxAmount,
+                    TaxPercent = x.TaxPercent,
+                    VariationOptions = OrderItemVm.GetVariationOption(x.Product)
+                }).ToList()
+            };
+
+            foreach (var item in model.OrderItems)
+            {
+                item.ProductImage = _mediaService.GetMediaUrl(item.ProductImage);
+            }
+
+            return Ok(model);
+        }
+
     }
 }
